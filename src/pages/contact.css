@@ -1,0 +1,176 @@
+.contact-us .contact-header{
+  position: relative;
+}
+.contact-us  .contact-header > img{
+  width: 100%;
+}
+
+.contact-us .subHeader{
+  text-align: center;
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 84px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.49);
+  margin: 0;
+}
+
+.contact-us .form-contact{
+  padding: 60px;
+  color: #fff;
+}
+
+.contact-us .form-contact .form-wrappper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-us .form-contact .form-wrappper .left{
+  position: relative
+}
+
+.contact-us .form-contact .form-wrappper .left div{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  right:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-us .form-contact .form-wrappper .left div i{
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-us .form-contact .form-wrappper .left div i,
+.contact-us .form-contact .form-wrappper .left div img{
+  width: 80px;
+  height: 50px;
+  cursor: pointer;
+  opacity: .9;
+}
+
+.contact-us .form-contact .form-wrappper .left,
+.contact-us .form-contact .form-wrappper .right{
+  flex: 1;
+}
+
+.contact-us .form-contact .form-wrappper .right .contact-info{
+  text-align: start;
+  margin: 25px 0;
+}
+
+.contact-us .form-contact .form-wrappper .right .form-control{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us .form-contact .form-wrappper .right .form-control input{
+  margin-bottom: 15px;
+  padding: 10px 20px;
+}
+
+.contact-us .form-contact .form-wrappper .right button{
+  background-color: #1DBEC8;
+  color: #fff;
+  padding: 10px 45px;
+  border: none;
+  font-size: 18px;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.contact-us .location{
+  display: flex;
+  padding: 10px;
+  color: #fff;
+}
+.contact-us .location .right{
+  height: 780px;
+}
+
+.contact-us .location .left,
+.contact-us .location .right{
+  width: 50%;
+}
+
+.contact-us .location .left{
+background: #2D2D3A;
+padding: 15px;
+}
+
+.contact-us .location .left .icon{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contact-us .location .left .icon span{
+  color: #5890EA;
+}
+
+.contact-us .location .left p{
+  margin-left: 25px;
+  line-height: 40px;
+}
+
+.contact-us .location .left .wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us .location .left .wrapper .icon div{
+  margin: 10px 0;
+}
+
+.contact-us .location .left .wrapper .icons img{
+  margin: 10px;
+}
+
+.contact-us .location .left .QR-image{
+  text-align: center;
+}
+.contact-us .location .left .QR-image div{
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+@media (max-width: 980px) {
+.contact-us .form-contact .form-wrappper,
+.contact-us .location
+{
+flex-direction: column;
+}
+.contact-us .form-contact .form-wrappper .left,
+.contact-us .form-contact .form-wrappper .right{
+width: 80%;
+}
+.contact-us .location .right,
+.contact-us .location .left{
+  width: 100%;
+}
+.contact-us .location .right{
+  height: 400px;
+}
+}
+
+@media (max-width: 700px){
+.contact-us .subHeader{
+  font-size: 45px;
+}
+.contact-us .location .left .wrapper .icons img{
+  width: 30px;
+  height: 30px;
+}
+.contact-us .QR-image img{
+  width: 150px;
+  height: 150px;
+}
+}

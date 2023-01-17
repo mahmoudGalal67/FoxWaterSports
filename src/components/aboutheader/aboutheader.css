@@ -1,0 +1,89 @@
+.about-header{
+  position: relative;
+}
+
+.about-header img{
+  width: 100%;
+}
+
+.about-header .about-us{
+  position: absolute;
+  top: 200px;
+  right: 60px;
+  background-color: #272730;
+  padding: 25px;
+  color: #fff;
+  border-radius: 12px;
+  width: 250px;
+}
+
+.about-header .about-us h3{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-gallary{
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient( rgba(39,39,48,.7),rgba(39,39,48,.7)) , url("../assets/images/review-background.webp");
+}
+
+.about-gallary .title{
+  margin-bottom: 20px;
+}
+
+.about-gallary p{
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+.info{
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: #fff;
+}
+
+.info .details,.info img{
+  width: 50%;
+}
+
+.info .details h3{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.info .details p{
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px;
+}
+
+@media (max-width:870px) {
+  .about-header .about-us{
+    display: none;
+  }
+  .info{
+    flex-direction: column;
+  }
+  .info .details{
+    width: 80%;
+  }
+  .info p{
+    padding: 0;
+    font-size: 14px;
+  }
+  .info img{
+    width: 80%;
+  }
+}

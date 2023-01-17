@@ -1,0 +1,10 @@
+.reviews{
+  padding: 50px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.reviews-wrapper{
+  background: linear-gradient( rgba(39,39,48,.7),rgba(39,39,48,.7)) , url("../assets/images/review-background.webp");
+  padding: 30px 40px;
+}

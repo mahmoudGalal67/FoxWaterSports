@@ -1,0 +1,165 @@
+footer{
+  background: rgba(255, 255, 255, 0.04);
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px 0;
+}
+
+footer .info{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+footer .brand{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .brand img{
+  margin-top: -35px;
+}
+
+footer .quick-links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.quick-links div{
+color: #1DBEC8;
+}
+
+footer .quick-links ul li{
+  margin: 15px;
+}
+
+footer .about div{
+  color: #1DBEC8;
+  margin-bottom: 25px;
+}
+
+footer .about ul{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 0;
+}
+
+footer .socials{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .icons {
+  display: flex;
+  gap: 10px;
+}
+
+footer .icons i{
+  background-color: #515159;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+footer .socials .hour{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+footer .socials .hour img{
+  width: 35px;
+}
+
+footer .socials .hour .working-hours{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .socials .phone{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+footer .socials .phone .Phone-details{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .socials .email{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+footer .socials .email i{
+  font-size: 36px;
+  color: #8D8D92;
+}
+
+footer .socials .email .email-details{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .socials .payments{
+  display: flex;
+}
+
+footer .socials .payments img:nth-child(2){
+  margin-left: 20px;
+}
+
+footer .rights{
+  text-align: center;
+}
+
+footer .rights span{
+  color: #1DBEC8;
+}
+
+footer .back-to-top{
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  z-index: 100;
+  right: 25px;
+  bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1DBEC8;
+  cursor: pointer;
+}
+
+footer .back-to-top:hover{
+  background-color: #fff;
+  color: #1DBEC8;
+}
+
+@media (max-width: 1200px) {
+footer .info{
+  display: none;
+}
+footer .socials{
+flex-direction: column;
+align-items: center;
+gap: 30px;
+}
+}
+
+@media (max-width: 700px) {
+  
+}

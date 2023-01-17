@@ -1,0 +1,131 @@
+.layout{
+  z-index: 100;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, .5);
+}
+
+.offers-modal .layout .offers-modal-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.modal-card{
+  position: relative;
+  background-color: #fff;
+  width: 80%;
+  /* height: 100%; */
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.exit{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid rgb(58, 58, 58);
+  cursor: pointer;
+  z-index: 101;
+  transition: all .3s ease-in-out;
+}
+
+.exit:hover{
+  color: rgb(58, 58, 58);
+}
+
+.offers-modal .layout .modal-card .title{
+  font-size: 32px;
+  color: #1DBEC8;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+}
+
+.offers-modal .layout .modal-card .left,
+.offers-modal .layout .modal-card .right{
+  flex: 1;
+  height: 450px;
+}
+
+
+.offers-modal .layout .modal-card .right .details{
+background-color: #1DBEC8;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 60px;
+padding: 0 20px;
+}
+
+.offers-modal .layout .modal-card .right p{
+margin: 0;
+color: #fff;
+font-size: 24px;
+font-weight: 400;
+text-align: center;
+}
+
+.offers-modal .layout .modal-card .right button{
+  padding: 10px;
+  color: #fff;
+  background-color: #FEB51F;
+  font-size: 22px;
+  font-weight: 400;
+  width: 180px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 25px;
+  transition: all .2s ease-in-out ;
+  display: block;
+}
+
+.offers-modal .layout .modal-card .right button:hover{
+
+  color: #1DBEC8;
+  transform: scale(1.05);
+  box-shadow: 2px 2px 12px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 12px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 12px 2px rgba(0,0,0,0.75);
+}
+
+@media (max-width: 840px) {
+.offers-modal .layout .offers-modal-wrapper{
+  flex-direction: column;
+}
+.offers-modal .layout .modal-card .right .details{
+  padding: 40px;
+  gap: 25px;
+}
+.offers-modal .layout .modal-card .left{
+  width: 100%;
+}
+.offers-modal .layout .modal-card .right p{
+  font-size: 18px;
+}
+.offers-modal .layout .modal-card .exit{
+  top: 10px;
+  right: 10px;
+}
+}

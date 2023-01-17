@@ -1,0 +1,30 @@
+.calender-model .modal-card{
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #13a9ff;
+  padding:40px 80px;
+}
+
+
+
+.calender-model .modal-card + span{
+  width: 100%;
+  margin: auto;
+  font-size: 18px;
+  text-align: center;
+  color: #232413;
+}
+
+.calender-model .modal-card div{
+  background-color: #4bd1d8;
+}
+
+@media (max-width: 600px) {
+.calender-model .exit{
+  right: 10px;
+}
+}

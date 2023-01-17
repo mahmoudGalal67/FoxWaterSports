@@ -1,0 +1,113 @@
+.gallary .instgram-feed{
+  margin-top: 130px;
+}
+
+.gallary .images{
+  padding: 25px;
+  color: #fff;
+}
+
+.gallary .images > .title{
+  font-size: 24px;
+}
+
+
+.gallary .images p{
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.gallary .images > .images-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallary .images .images-wrapper img{
+  width: calc(100% / 3);
+}
+
+.gallary .support{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #FFF;
+  padding: 25px;
+  margin: 35px 0px;
+  background: linear-gradient( rgba(39,39,48,.7),rgba(39,39,48,.7)) , url("../components/assets/images/review-background.webp");
+}
+
+.gallary .support .phone-number{
+  width: 60%;
+  border: 1PX solid #FFF;
+  padding: 20px 80px;
+  text-align: center;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gallary .section-border{
+  justify-content: space-between;
+}
+
+.gallary .support p{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.gallary .support .phone-number div,
+.gallary .support .phone-number p{
+width: fit-content;
+margin: 0;
+text-align: center;
+}
+
+.gallary .support .phone-number div{
+  font-size: 24px;
+}
+
+.gallary .form-input{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.gallary .form-input .form-control{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0 20px;
+}
+
+.gallary .form-input input{
+  padding: 5px 10px;
+}
+
+.gallary button{
+  background-color: #1DBEC8;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  font-size: 18px;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.gallary button:hover{
+  color: #1DBEC8;
+  background-color: #fff;
+}
+
+
+@media (max-width: 760px) {
+.gallary .form-input{
+flex-direction: column;
+gap: 20px;
+}
+}

@@ -1,0 +1,118 @@
+.payment .your-payment{
+  font-size: 22px;
+}
+
+.payment p{
+  color: #313131;
+}
+
+.payment .payment-method {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.payment .payment-method .payment-card{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.payment .payment-method .payment-card .payment-icon{
+  padding: 20px 30px;
+  background-color: #1DBEC8;
+  color: #fff;
+  height: 150px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.payment .payment-method .payment-card .payment-icon img{
+  width: 100px;
+  height: 100px;
+}
+
+.payment .payment-method .payment-card .payment{
+  text-align: center;
+}
+
+.payment .payment-method .payment-card .type{
+  background-color: #EAEAEA;
+  padding: 60px 0;
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid #ffffff;
+}
+
+.payment .payment-method .payment-card .type.active{
+  border-color:rgb(255, 201, 22) ;
+}
+
+.payment .payment-method .payment-card .type:hover{
+  cursor: pointer;
+  color: #1DBEC8;
+  background-color:#fff;
+}
+
+.payment .cobon div{
+text-align: center;
+margin: 10px;
+}
+
+.payment .cobon .cobon-form{
+  justify-content: center;
+  display: flex;
+  gap: 8px;
+  margin: 10px;
+}
+
+.payment .cobon .cobon-form input{
+  width: 40%;
+  border-radius: 12px;
+}
+
+.payment .cobon .cobon-form button{
+  padding: 8px 20px;
+  border-radius: 12px;
+  color: #1DBEC8;
+  cursor: pointer;
+}
+.payment .cobon .cobon-form button:hover{
+  background-color: #1DBEC8;
+  color: #fff;
+}
+
+.loading{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+@media (max-width: 500px) {
+.payment .payment-method{
+  flex-direction: column;
+  align-items: center;
+}
+.payment .payment-method .payment-card{
+  width: 140px;
+}
+.payment .payment-method .payment-card .payment-icon,
+.payment .payment-method .payment-card .type{
+  padding: 15px;
+  height: fit-content;
+}
+.payment .payment-method .payment-card .payment-icon img{
+  width: 70px;
+  height: 50px;
+}
+}
