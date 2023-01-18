@@ -40,17 +40,21 @@ function PakageDetails({ details, setdetails, orderDetails, setorderDetails }) {
 
   const Next = () => {
     if (orderDetails.packageType) {
-      setdetails({ process: 'dateInfo' })
+      setdetails({...details, process: 'dateInfo' })
     }
     else {
       seterrorMessage("Please Add the package details")
     }
   }
+  const Exit = () => {
+    setorderDetails({})
+    setdetails({ process: '' })
+  }
   return (
     <div className='package-details'>
       <div className="layout">
         <div className="modal-card">
-          <div className="exit" onClick={() => setdetails({ process: '' })}>x</div>
+          <div className="exit" onClick={Exit}>x</div>
           <div className="card-wrapper">
             {/* <img src={details.details.image} alt="" /> */}
             {/* <div className="info">
@@ -113,6 +117,7 @@ function PakageDetails({ details, setdetails, orderDetails, setorderDetails }) {
               </div>
             </div>
             <button className='next' onClick={Next}>Next <i className="fa-solid fa-arrow-right"></i></button>
+            
             <div className='error'>{ errorMessage}</div>
           </div>
         </div>

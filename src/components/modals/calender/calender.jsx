@@ -8,25 +8,37 @@ import { useState } from "react";
 
 import "./calender.css"
 
-function Calender({orderDetails ,setorderDetails ,setdetails}) {
-  const [value, setValue] = useState(new Date());
+function Calender({orderDetails ,setorderDetails ,setdetails,details}) {
+  const [value, setValue] = useState();
   const [error, seterror] = useState("")
 
-
+  const Back = () => {
+    setdetails({details:{...details} , process:"packageDetails"})
+    console.log(details)
+  }
 
   const Next = () => {
     if (orderDetails.date) {
-      setdetails({ process: "userInfo" })
+      if (!isNaN(value?.$d?.valueOf())) {
+        setdetails({ process: "userInfo" })
+      }
+      else {
+        seterror("Please choose a suitable date")
+      }
     }
     else {
       seterror("Please Choose a date")
     }
   }
+    const Exit = () => {
+    setorderDetails({})
+    setdetails({ process: '' })
+  }
   return (
     <div className="calender-model">
       <div className="layout">
         <div className="modal-card">
-          <div className="exit" onClick={() => setdetails({ process: '' })}>x</div>
+          <div className="exit" onClick={Exit}>x</div>
         <span>Choose a suitable date</span>
         <LocalizationProvider dateAdapter={AdapterDayjs} className={"calender"}>
           <DateTimePicker
@@ -34,11 +46,13 @@ function Calender({orderDetails ,setorderDetails ,setdetails}) {
             renderInput={(params) => <TextField {...params} />}
             value={value}
               onChange={(newValue) => {
-              setorderDetails({...orderDetails , date:newValue.$d.toLocaleString("en-US")})
+                setorderDetails({ ...orderDetails, date: newValue.$d.toLocaleString("en-US") })
+                setValue(newValue)
             }}
             minDate={dayjs(new Date())}
           />
           </LocalizationProvider>
+          <div className="back" onClick={Back}>Back</div>
           <div className="next" onClick={Next}>Next</div>
           <span className="error">{ error}</span>
         </div>

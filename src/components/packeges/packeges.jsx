@@ -35,9 +35,9 @@ function Packeges() {
       <Card title={"15 minutes for free "} image={ require('../assets/images/offers/1.webp')} setofferModalNumber={ setofferModalNumber} offerNumber={2}/>
       <Card title={"15% discount on JetCar"} image={require('../assets/images/offers/2.webp')} setofferModalNumber={ setofferModalNumber} offerNumber={3}/>
         
-      {offerModalNumber === 1 && <OfferModal offerType="Yacht" setPackageDetails={setPackageDetails} setofferModalNumber={ setofferModalNumber} image={require("../assets/images/offers/3.webp")} details={"When booking a DADDY BIG 90FT yacht, use the Jetski for 30 minutes for free"} />}
-      {offerModalNumber === 2 && <OfferModal offerType="jetski" setPackageDetails={setPackageDetails}  setofferModalNumber={ setofferModalNumber} image={require("../assets/images/offers/1.webp")} details={"When booking 30 minutes for JetSki, the duration will be increased by 15 minutes for free"}/>}
-      { offerModalNumber=== 3 && <OfferModal offerType="jetcar" setPackageDetails={setPackageDetails}  setofferModalNumber={ setofferModalNumber} image={require("../assets/images/offers/2.webp")} details={"If the group has more than 3 people, a 15% discount will be applied."}/>}
+    {offerModalNumber === 1 && <OfferModal setorderDetails={setorderDetails} offerType=" DADDY BIG 90FT yacht" offerPackage="4 Beedrooms 65 Guest 1500" setdetails={setdetails} setofferModalNumber={ setofferModalNumber} image={require("../assets/images/offers/3.webp")} details={"When booking a DADDY BIG 90FT yacht, use the Jetski for 30 minutes for free"} />}
+      {offerModalNumber === 2 && <OfferModal  setorderDetails={setorderDetails} offerType="jetski ride- YamahaVXR Cruiser 1800CC" offerPackage="30 Min 1or2 Person 450" setdetails={setdetails}  setofferModalNumber={ setofferModalNumber} image={require("../assets/images/offers/1.webp")} details={"When booking 30 minutes for JetSki, the duration will be increased by 15 minutes for free"}/>}
+      { offerModalNumber=== 3 && <OfferModal setPackageDetails={setPackageDetails} offerType="jetcar" offerPackage="" setdetails={setdetails}  setofferModalNumber={ setofferModalNumber} image={require("../assets/images/offers/2.webp")} details={"If the group has more than 3 people, a 15% discount will be applied."}/>}
       </div>
     </section>
     <section id='Packeges' className='packeges'>
@@ -142,15 +142,15 @@ function Packeges() {
         </div>
       </div>
       <div className="owl-carousel packeges-carousel">
-        <div className='packeges-carousel-item'><img src={require("../assets/images/Gallay/WhatsApp-Image-2021-11-22-at-23.59 (2).webp")} alt="" /></div>
-        <div className='packeges-carousel-item'><img src={require("../assets/images/Gallay/flyboard-img-1.webp")} alt="" /></div>
-        <div className='packeges-carousel-item'><img src={require("../assets/images/Gallay/donut-ride_2.webp")} alt="" /></div>
-        <div className='packeges-carousel-item'><img src={require("../assets/images/Gallay/Cruising-Thumb 4.webp")} alt="" /></div>
-        <div className='packeges-carousel-item'><img src={require("../assets/images/Gallay/WhatsApp-Image-2021-11-22-at-23.59 (1).webp")} alt="" /></div>
+        <div className='packeges-carousel-item'><img src={require("../assets/images/Gallay/WhatsApp-Image-2021-11-22-at-23.59 (2).webp")} alt="flying fox water sports" /></div>
+        <div className='packeges-carousel-item'><img src={require("../assets/images/Gallay/flyboard-img-1.webp")} alt="car jetski in dubai" /></div>
+        <div className='packeges-carousel-item'><img src={require("../assets/images/Gallay/donut-ride_2.webp")} alt="car jetski in dubai" /></div>
+        <div className='packeges-carousel-item'><img src={require("../assets/images/Gallay/Cruising-Thumb 4.webp")} alt="flying fox water sports" /></div>
+        <div className='packeges-carousel-item'><img src={require("../assets/images/Gallay/WhatsApp-Image-2021-11-22-at-23.59 (1).webp")} alt="car jetski in dubai" /></div>
       </div>
         
       {details.process === "packageDetails" && <PackageDetails details={details.details} setdetails={setdetails} setorderDetails={setorderDetails} orderDetails={orderDetails} />}
-      {details.process === "dateInfo" && <Calender orderDetails={orderDetails} setorderDetails={setorderDetails} setdetails={setdetails} />}
+      {details.process === "dateInfo" && <Calender details={details} orderDetails={orderDetails} setorderDetails={setorderDetails} setdetails={setdetails} />}
       {details.process === "userInfo" && <UserInfo orderDetails={orderDetails} setorderDetails={setorderDetails} setdetails={setdetails} />}
       {details.process === "paymentMethod" && <Payment orderDetails={orderDetails} setorderDetails={setorderDetails} setdetails={setdetails} />}
       </section>

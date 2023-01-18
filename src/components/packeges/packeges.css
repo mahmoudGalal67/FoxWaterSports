@@ -18,6 +18,8 @@
   color: #fff;
   background-color: #1DBEC8;
   margin: 20px 0;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .packeges .packeges_cards-wrapper .packege-card img{

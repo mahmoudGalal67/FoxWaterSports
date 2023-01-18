@@ -188,7 +188,11 @@ margin-bottom: 20px;
   color: #08AFE4;
 }
 
-.next{
+
+.next,
+.back
+{
+  position: absolute;
   display: flex;
   gap: 10px;
   align-items: center;
@@ -199,12 +203,19 @@ margin-bottom: 20px;
   cursor: pointer;
   font-size: 24px;
   color: rgb(27, 26, 26);
-  margin-left: auto;
-  margin-right: 20px;
-  margin-bottom: 10px;
+  bottom: 15px;
+}
+.next{
+  right: 20px;
 }
 
-.next:hover{
+.back{
+  left: 20px;
+}
+
+
+.next:hover,
+.back:hover{
   background-color: #08AFE4;
   color: #fff;
 }

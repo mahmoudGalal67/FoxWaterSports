@@ -2,10 +2,17 @@ import React from 'react'
 import "./offers.css"
 
 
-function offers({ image, details, setofferModalNumber, setPackageDetails,offerType }) {
+function offers({ image, details, setdetails,setofferModalNumber, setPackageDetails,offerType ,setorderDetails,offerPackage}) {
   const getOffer = () => {
-    setofferModalNumber(0)
-    setPackageDetails(offerType)
+      setofferModalNumber(0)
+    if (offerType === "jetcar") {
+      setPackageDetails(offerType)
+    }
+    else {
+      setorderDetails({ packageType: offerPackage, type: offerType })
+      setdetails({ process: "dateInfo" })
+      console.log(offerPackage , offerType);
+    }
   }
   return (
     <div className='offers-modal'>
@@ -15,7 +22,7 @@ function offers({ image, details, setofferModalNumber, setPackageDetails,offerTy
           <div className="title">offers<div className='section-border'><div></div><div></div><div></div></div></div>
           <div className="offers-modal-wrapper">
             <div className="left">
-              <img className='image-fluid' src={image} alt="natural surf shop" />
+              <img className='image-fluid' src={image} alt="waves surf shop" />
             </div>
             <div className="right">
               <div className="details">

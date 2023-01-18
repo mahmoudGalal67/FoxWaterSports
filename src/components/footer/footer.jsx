@@ -65,7 +65,7 @@ function footer() {
         </div>
       </div>
       <div className="rights">
-        Copyright © 2022. Design and developed by <span>Adsamy Marketing Agency</span>
+        Copyright © 2022. Design and developed by <span><a href="https://adsamy.com/">Adsamy Marketing Agency</a></span>
       </div>
       <a href='#' className="back-to-top"><i className="fa-solid fa-arrow-up"></i></a>
     </footer>
