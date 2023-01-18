@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser';
 import { Oval } from  'react-loader-spinner'
 
 
-function UserInfo({orderDetails ,setorderDetails ,setdetails}) {
+function UserInfo({orderDetails ,setorderDetails ,setdetails ,details}) {
   const [loading, setloading] = useState(false)
   const [error, seterror] = useState("")
   const Next = () => {
@@ -36,7 +36,7 @@ function UserInfo({orderDetails ,setorderDetails ,setdetails}) {
     setdetails({ process: '' })
   }
   const Back = () => {
-    setdetails({ process: 'dateInfo' })
+    setdetails({...details , process:"dateInfo"})
   }
   return (
     <div className="user-info">

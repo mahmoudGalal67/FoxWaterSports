@@ -14,13 +14,12 @@ function Calender({orderDetails ,setorderDetails ,setdetails,details}) {
 
   const Back = () => {
     setdetails({details:{...details} , process:"packageDetails"})
-    console.log(details)
   }
 
   const Next = () => {
     if (orderDetails.date) {
       if (!isNaN(value?.$d?.valueOf())) {
-        setdetails({ process: "userInfo" })
+        setdetails({...details , process:"userInfo"})
       }
       else {
         seterror("Please choose a suitable date")

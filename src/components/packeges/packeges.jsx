@@ -151,7 +151,7 @@ function Packeges() {
         
       {details.process === "packageDetails" && <PackageDetails details={details.details} setdetails={setdetails} setorderDetails={setorderDetails} orderDetails={orderDetails} />}
       {details.process === "dateInfo" && <Calender details={details} orderDetails={orderDetails} setorderDetails={setorderDetails} setdetails={setdetails} />}
-      {details.process === "userInfo" && <UserInfo orderDetails={orderDetails} setorderDetails={setorderDetails} setdetails={setdetails} />}
+      {details.process === "userInfo" && <UserInfo  details={details} orderDetails={orderDetails} setorderDetails={setorderDetails} setdetails={setdetails} />}
       {details.process === "paymentMethod" && <Payment orderDetails={orderDetails} setorderDetails={setorderDetails} setdetails={setdetails} />}
       </section>
       </>
