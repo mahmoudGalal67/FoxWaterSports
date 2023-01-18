@@ -1,3 +1,7 @@
+.gallary{
+  overflow-x: hidden;
+}
+
 .gallary .instgram-feed{
   margin-top: 130px;
 }

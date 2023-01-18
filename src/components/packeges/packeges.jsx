@@ -46,7 +46,7 @@ function Packeges() {
       </div>
       <div className="packeges_cards-wrapper">
         <div className="packege-card" data-aos="fade-right">
-          <img src={require('../assets/images/packages/1.webp')} alt="" />
+          <img src={require('../assets/images/packages/1.webp')} alt="car jetski in dubai" />
           <div className="packege_card-title">jetcar</div>
           <div className="packege_card-info">
             <div><i className="fa-regular fa-clock"></i><span>20 Min</span></div>
@@ -56,7 +56,7 @@ function Packeges() {
           <span className='package-button'  onClick={()=>setPackageDetails("jetcar")} >Book Now</span>
         </div>
         <div className="packege-card" data-aos="fade-up">
-          <img src={require('../assets/images/packages/2.webp')} alt="" />
+          <img src={require('../assets/images/packages/2.webp')} alt="flying fox water sports" />
           <div className="packege_card-title">Fly Board</div>
           <div className="packege_card-info">
             <div><i className="fa-regular fa-clock"></i><span>30 Min</span></div>
@@ -66,7 +66,7 @@ function Packeges() {
           <span className='package-button' onClick={()=>setPackageDetails("flyBoard")}>Book Now</span>
         </div>
         <div className="packege-card" data-aos="fade-up">
-          <img src={require('../assets/images/packages/3.webp')} alt="" />
+          <img src={require('../assets/images/packages/3.webp')} alt="performance jetski in dubai" />
           <div className="packege_card-title">Yacht</div>
           <div className="packege_card-info">
             <div className='bedroom'><i className="fa-solid fa-ship"></i><span> 1 Bedroom</span></div>
@@ -76,7 +76,7 @@ function Packeges() {
           <span className='package-button' onClick={()=>setPackageDetails("Yacht")}>Book Now</span>
         </div>
         <div className="packege-card" data-aos="fade-left">
-          <img src={require('../assets/images/packages/4.webp')} alt="" />
+          <img src={require('../assets/images/packages/4.webp')} alt="where to do jetski in dubai" />
           <div className="packege_card-title">Banana Boat</div>
           <div className="packege_card-info">
             <div><i className="fa-regular fa-clock"></i><span>30 Min</span></div>
@@ -86,7 +86,7 @@ function Packeges() {
           <span className='package-button' onClick={()=>setPackageDetails("bananaBoat")}>Book Now</span>
         </div>
         <div className="packege-card" data-aos="fade-right">
-          <img src={require('../assets/images/packages/5.webp')} alt="" />
+          <img src={require('../assets/images/packages/5.webp')} alt="best jet ski dubai" />
           <div className="packege_card-title">Speed boat</div>
           <div className="packege_card-info">
             <div><i className="fa-regular fa-clock"></i><span>1 Hour</span></div>
@@ -96,7 +96,7 @@ function Packeges() {
           <span className='package-button' onClick={()=>setPackageDetails("speedBoat")}>Book Now</span>
         </div>
         <div className="packege-card" data-aos="fade-up">
-          <img src={require('../assets/images/packages/6.webp')} alt="" />
+          <img src={require('../assets/images/packages/6.webp')} alt="jetski for sale in dubai" />
           <div className="packege_card-title">Parasailing</div>
           <div className="packege_card-info">
             <div><i className="fa-regular fa-clock"></i><span>15 Min</span></div>
@@ -106,7 +106,7 @@ function Packeges() {
           <span className='package-button' onClick={()=>setPackageDetails("parasailing")}>Book Now</span>
         </div>
         <div className="packege-card" data-aos="fade-up">
-          <img src={require('../assets/images/packages/7.webp')} alt="" />
+          <img src={require('../assets/images/packages/7.webp')} alt="jetski rental in dubai" />
           <div className="packege_card-title">jetski</div>
           <div className="packege_card-info">
             <div><i className="fa-regular fa-clock"></i><span>30 Min</span></div>
@@ -116,7 +116,7 @@ function Packeges() {
           <span className='package-button' onClick={()=>setPackageDetails("jetski")}>Book Now</span>
         </div>
         <div className="packege-card" data-aos="fade-left">
-          <img src={require('../assets/images/packages/8.webp')} alt="" />
+          <img src={require('../assets/images/packages/8.webp')} alt="jet ski crash dubai" />
           <div className="packege_card-title">Donut </div>
           <div className="packege_card-info">
             <div><i className="fa-regular fa-clock"></i><span>30 Min</span></div>
@@ -128,7 +128,7 @@ function Packeges() {
       </div>
       <div className="packeges-details">
         <div className="left">
-          <img src={require("../assets/images/packages/main.webp")} alt="" />
+          <img src={require("../assets/images/packages/main.webp")} alt="cheap jet ski dubai" />
         </div>
         <div className="right">
           <div className="packeges-details-info">
@@ -142,11 +142,11 @@ function Packeges() {
         </div>
       </div>
       <div className="owl-carousel packeges-carousel">
-        <div className='packeges-carousel-item'><img src={require("../assets/images/packages/donut-ride_2.webp")} alt="" /></div>
-        <div className='packeges-carousel-item'><img src={require("../assets/images/packages/flyboard-img-1.webp")} alt="" /></div>
-        <div className='packeges-carousel-item'><img src={require("../assets/images/packages/WhatsApp-Image-2021-11-22-at-23.59(1).webp")} alt="" /></div>
-        <div className='packeges-carousel-item'><img src={require("../assets/images/packages/WhatsApp-Image-2021-11-22-at-23.59.webp")} alt="" /></div>
-        <div className='packeges-carousel-item'><img src={require("../assets/images/packages/WhatsApp-Image-2021-11-22-at-23.59.webp")} alt="" /></div>
+        <div className='packeges-carousel-item'><img src={require("../assets/images/Gallay/WhatsApp-Image-2021-11-22-at-23.59 (2).webp")} alt="" /></div>
+        <div className='packeges-carousel-item'><img src={require("../assets/images/Gallay/flyboard-img-1.webp")} alt="" /></div>
+        <div className='packeges-carousel-item'><img src={require("../assets/images/Gallay/donut-ride_2.webp")} alt="" /></div>
+        <div className='packeges-carousel-item'><img src={require("../assets/images/Gallay/Cruising-Thumb 4.webp")} alt="" /></div>
+        <div className='packeges-carousel-item'><img src={require("../assets/images/Gallay/WhatsApp-Image-2021-11-22-at-23.59 (1).webp")} alt="" /></div>
       </div>
         
       {details.process === "packageDetails" && <PackageDetails details={details.details} setdetails={setdetails} setorderDetails={setorderDetails} orderDetails={orderDetails} />}

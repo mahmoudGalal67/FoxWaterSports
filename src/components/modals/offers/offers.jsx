@@ -15,7 +15,7 @@ function offers({ image, details, setofferModalNumber, setPackageDetails,offerTy
           <div className="title">offers<div className='section-border'><div></div><div></div><div></div></div></div>
           <div className="offers-modal-wrapper">
             <div className="left">
-              <img className='image-fluid' src={image} alt="" />
+              <img className='image-fluid' src={image} alt="natural surf shop" />
             </div>
             <div className="right">
               <div className="details">

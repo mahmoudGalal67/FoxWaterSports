@@ -6,7 +6,7 @@ function footer() {
     <footer>
       <div className="info">
         <div className="brand">
-          <img src={require("../assets/images/logo.webp")} alt="" />
+          <img src={require("../assets/images/logo.webp")} alt="fox sports not loading" />
           <div className="adrress">Dubai Harbor,<br/><br/>Dubai , UAE</div>
         </div>
       <div className="quick-links">
@@ -39,14 +39,14 @@ function footer() {
           <a href="https://www.tiktok.com/@foxwatersport1"><i className="fa-brands fa-tiktok"></i></a>
         </div>
         <div className="hour">
-          <img src={require("../assets/images/hour.webp")} alt="" />
+          <img src={require("../assets/images/hour.webp")} alt="fox water sports grand rapids" />
           <div className="working-hours">
             <span>Working hours</span>
             <span>From 9 am to 6 pm</span>
           </div>
         </div>
         <div className="phone">
-          <img src={require("../assets/images/Vector (1).webp")} alt="" />
+          <img src={require("../assets/images/Vector (1).webp")} alt="fox sports west channel number" />
           <div className="Phone-details">
             <span>Phone</span>
             <span>+971 54 557 4911</span>
@@ -60,8 +60,8 @@ function footer() {
           </div>
         </div>
         <div className="payments">
-          <img src={require("../assets/images/Payment method icon (2).webp")} alt="" />
-          <img src={require("../assets/images/Payment method icon.webp")} alt="" />
+          <img src={require("../assets/images/Payment method icon (2).webp")} alt="in the eye surfboard for sale" />
+          <img src={require("../assets/images/Payment method icon.webp")} alt="in the eye surfboard for sale" />
         </div>
       </div>
       <div className="rights">

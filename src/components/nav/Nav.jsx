@@ -20,7 +20,7 @@ function Nav() {
       <nav>
         <div className="left">
           <a href="/" className="logo">
-            <img src={require("../assets/images/logo.webp")} alt="" />
+            <img src={require("../assets/images/logo.webp")} alt="fox water sport" />
           </a>
         </div>
         <ul className="center menu" ref={menu}>
@@ -43,7 +43,7 @@ function Nav() {
         <img
           className="right"
           src={require("../assets/images/u_flag.webp")}
-          alt=""
+          alt="buy jetski in dubai"
         />
       </nav>
       {/* Humberger-menu */}

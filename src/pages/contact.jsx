@@ -49,7 +49,7 @@ function Contact() {
     <Nav />
     <div className="contact-us">
       <div className="contact-header">
-        <img src={require("../components/assets/images/Contact us/jet-ski-alcudia-22207-o 1.png")} alt="" />
+        <img src={require("../components/assets/images/Contact us/jet-ski-alcudia-22207-o 1.png")} alt="fox sports email" />
         <div className="subHeader">
           CONTACT US
         </div>
@@ -99,14 +99,14 @@ function Contact() {
           <div className="wrapper">
             <div className="icon"><img src={require("../components/assets/images/Contact us/Vector (1).png")} alt="" /><div><div>+971 54 557 4911</div><div>+971 54 557 4911</div></div></div>
             <div className="icons">
-              <img src={require("../components/assets/images/Contact us/Facebook.png")} alt="" />
-              <img src={require("../components/assets/images/Contact us/Instagram.png")} alt="" />
-              <img src={require("../components/assets/images/Contact us/Icon_6_.png")} alt="" />
+              <img src={require("../components/assets/images/Contact us/Facebook.png")} alt="fox sports email" />
+              <img src={require("../components/assets/images/Contact us/Instagram.png")} alt="fox sports email" />
+              <img src={require("../components/assets/images/Contact us/Icon_6_.png")} alt="fox sports email" />
             </div>
           </div>
             <div className="QR-image">
             <div>OR</div>
-            <img src={require("../components/assets/images/Contact us/index5 1.png")} alt="" />
+            <img src={require("../components/assets/images/Contact us/index5 1.png")} alt="fox sports email" />
           </div>
         </div>
         <div className="right">

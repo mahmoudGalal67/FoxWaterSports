@@ -7,31 +7,22 @@ function Header() {
       <div className="header-wrapper">
         <div className="owl-carousel header-carousel">
           <div className="owl-carousel-item">
-            <video
-              width="100%"
-              autoPlay
-              loop
-              muted
-              src={require("../assets/videos/(1).webm")}
-            ></video>
+            <img
+              width="100%" alt="jetski for sale in dubai"
+              src={require("../assets/videos/1.gif")}
+            />
           </div>
           <div className="owl-carousel-item">
-            <video
-              width="100%"
-              autoPlay
-              loop
-              muted
-              src={require("../assets/videos/(2).webm")}
-            ></video>
+            <img
+              width="100%" alt="jetski rental in dubai"
+              src={require("../assets/videos/2.gif")}
+            />
           </div>
           <div className="owl-carousel-item">
-            <video
-              width="100%"
-              autoPlay
-              loop
-              muted
-              src={require("../assets/videos/(4).webm")}
-            ></video>
+            <img
+              width="100%" alt="best jet ski dubai"
+              src={require("../assets/videos/3.gif")}
+            />
           </div>
         </div>
       </div>

@@ -66,7 +66,7 @@ function PakageDetails({ details, setdetails, orderDetails, setorderDetails }) {
                 {
                   details.details.types.map((type) => (
                     <div key={type.type} className="type-card">
-                      <img src={type.image} alt="" />
+                      <img src={type.image} alt="waves surf shop" />
                       <div className='type'>{type.type}</div>
                       <div className="details-wrapper">
                         {type.details.map((detail) => (
@@ -82,7 +82,7 @@ function PakageDetails({ details, setdetails, orderDetails, setorderDetails }) {
                 {
                   details.details.types.map((type) => (
                     <div key={type.type} className="type-card">
-                      <img src={type.image} alt="" />
+                      <img src={type.image} alt="waves surf shop" />
                       <div className='type'>{type.type}</div>
                       <div className="details-wrapper">
                         {type.details.map((detail) => (
@@ -99,15 +99,15 @@ function PakageDetails({ details, setdetails, orderDetails, setorderDetails }) {
               <div className='break' />
               <div className="image-wrapper">
                 <div className="image-item">
-                  <img src={require("../../assets/images/packageDetails/services 3.jpg") } alt="" />
+                  <img src={require("../../assets/images/packageDetails/services 3.jpg") } alt="fox sports app customer service" />
                   <span>Photography</span>
                 </div>
                 <div className="image-item">
-                  <img src={require("../../assets/images/packageDetails/services 2.jpg") } alt="" />
+                  <img src={require("../../assets/images/packageDetails/services 2.jpg") } alt="fox sports app customer service" />
                   <span>Birthday cake</span>
                 </div>
                 <div className="image-item">
-                  <img src={require("../../assets/images/packageDetails/services 1.jpg") } alt="" />
+                  <img src={require("../../assets/images/packageDetails/services 1.jpg") } alt="fox sports app customer service" />
                   <span>Pickup & Drop</span>
                 </div>
               </div>

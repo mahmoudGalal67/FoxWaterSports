@@ -124,6 +124,10 @@
   position: relative;
 }
 
+.packeges .packeges-carousel .packeges-carousel-item img{
+  height: 250px;
+}
+
 .packeges .packeges-carousel .owl-nav button{
   background-color: #1DBEC8;
   width: 40px;

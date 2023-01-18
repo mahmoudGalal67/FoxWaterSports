@@ -67,3 +67,8 @@ ul{
   text-align: center;
   font-size: 14px;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+display: none;
+}

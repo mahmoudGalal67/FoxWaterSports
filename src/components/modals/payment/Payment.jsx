@@ -50,14 +50,14 @@ function Payment({ orderDetails, setorderDetails, setdetails }) {
           <div className="payment-method">
             <div className="payment-card" >
               <div className="payment-icon" >
-                <img src={require("../../assets/images/payment/percentage.png")} alt="" />
+                <img src={require("../../assets/images/payment/percentage.png")} alt="fox river water sports" />
                 <div className='payment'>Total AED</div>
               </div>
               <div className='type' onClick={setPayment}>Full Amount</div>
             </div>
             <div className="payment-card"  >
               <div className="payment-icon" >
-                <img src={require("../../assets/images/payment/development.png")} alt="" />
+                <img src={require("../../assets/images/payment/development.png")} alt="fox river water sports" />
                 <div className='payment'>Deposit Amount 100 AED</div>
               </div>
               <div className='type' onClick={setPayment}>Deposit Only</div>
@@ -73,7 +73,7 @@ function Payment({ orderDetails, setorderDetails, setdetails }) {
             <div className="cobon">
               <div>Do you have a Coupon Code?</div>
               <div className="cobon-form">
-                <img src={require("../../assets/images/payment/Vector.png")} alt="" />
+                <img src={require("../../assets/images/payment/Vector.png")} alt="fox river water sports" />
                 <input className='cobonText' type="text" placeholder='Cobon' />
                 <button onClick={applyCobon}>Apply</button>
               </div>

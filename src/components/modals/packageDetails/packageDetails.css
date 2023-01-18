@@ -91,11 +91,12 @@ border-radius: 10px;
 width: calc(100%/2 - 80px);
 margin: 0 5px;
 overflow: hidden;
-height: 400px;
+height: fit-content;
+padding: 10px 0;
 }
 
 .package-details .card-wrapper .types .type-card > img{
-  height: 200px;
+  height: 150px;
   width: 100%;
   object-fit: cover;
 }
@@ -103,7 +104,6 @@ height: 400px;
 .package-details .card-wrapper .types .type-card > div {
   font-size: 18px;
   color: #08AFE4;
-  margin-bottom: 15px;
   text-align: center;
 }
 

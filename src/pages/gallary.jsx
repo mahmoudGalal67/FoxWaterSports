@@ -43,12 +43,12 @@ function Gallary() {
         </div>
         <p>We are passionate about what we do, check out our latest news and follow us on social media!</p>
         <div className="images-wrapper">
-          <img src={require("../components/assets/images/Gallay/Cruising-Thumb 4.webp")} alt="" />
-          <img src={require("../components/assets/images/Gallay/donut-ride_2.webp")} alt="" />
-          <img src={require("../components/assets/images/Gallay/flyboard-img-1.webp")} alt="" />
-          <img src={require("../components/assets/images/Gallay/WhatsApp-Image-2021-11-22-at-23.59 (1).webp")} alt="" />
-          <img src={require("../components/assets/images/Gallay/WhatsApp-Image-2021-11-22-at-23.59 (3).webp")} alt="" />
-          <img src={require("../components/assets/images/Gallay/WhatsApp-Image-2021-11-22-at-23.59 (4).webp")} alt="" />
+          <img src={require("../components/assets/images/Gallay/Cruising-Thumb 4.webp")} alt="fox sports stream not working" />
+          <img src={require("../components/assets/images/Gallay/donut-ride_2.webp")} alt="jet ski ride dubai" />
+          <img src={require("../components/assets/images/Gallay/flyboard-img-1.webp")} alt="how watch fox sports" />
+          <img src={require("../components/assets/images/Gallay/WhatsApp-Image-2021-11-22-at-23.59 (1).webp")} alt="fox sports stream not working" />
+          <img src={require("../components/assets/images/Gallay/WhatsApp-Image-2021-11-22-at-23.59 (3).webp")} alt="how watch fox sports" />
+          <img src={require("../components/assets/images/Gallay/WhatsApp-Image-2021-11-22-at-23.59 (4).webp")} alt="jet ski ride dubai" />
         </div>
         <div className="support">
           <div className="title">

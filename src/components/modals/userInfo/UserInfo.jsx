@@ -24,7 +24,7 @@ function UserInfo({orderDetails ,setorderDetails ,setdetails}) {
           <span>Email</span>
           <input type="email" name="Email" onChange={(e) => setorderDetails({...orderDetails,[e.target.name]:e.target.value})}/>
           <span>Phone Number</span>
-            <input type="text" name="PhoneNumber" onChange={(e) => setorderDetails({...orderDetails,[e.target.name]:e.target.value})}/>
+            <input type="number" name="PhoneNumber" onChange={(e) => setorderDetails({...orderDetails,[e.target.name]:e.target.value})}/>
           </div>
           <button className='next' onClick={Next}>Next <i className="fa-solid fa-arrow-right"></i></button>
           <div className="error">{error}</div>
