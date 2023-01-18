@@ -7,7 +7,7 @@ export const packageDetails = {
       image: (require("../assets/images/packageDetails/Jetski Ride - Yamaha FZR Cruiser Supercharged 1800CC.webp")),
       types: [
         {
-          image: (require("../assets/images/packageDetails/Jetski Ride - Yamaha VXR Cruiser 1800CC.png")),
+          image: (require("../assets/images/packageDetails/WhatsApp Image 2023-01-18 at 11.22.21.jpeg")),
           type: 'Jetski Ride  Yamaha Waverunner Vxc Cruiser 1300CC',
           details:['30 Min 1 or 2 Person 400' ,"1 Hour 1 or 2 Person 600"]
         },{
