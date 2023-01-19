@@ -8,7 +8,7 @@ import { useState } from "react";
 
 import "./calender.css"
 
-function Calender({orderDetails ,setorderDetails ,setdetails,details}) {
+function Calender({ orderDetails, setorderDetails, setdetails, details }) {
   const [value, setValue] = useState();
   const [error, seterror] = useState("")
 
@@ -51,7 +51,7 @@ function Calender({orderDetails ,setorderDetails ,setdetails,details}) {
             minDate={dayjs(new Date())}
           />
           </LocalizationProvider>
-          <div className="back" onClick={Back}>Back</div>
+          {details.details&&<div className="back" onClick={Back}>Back</div>}
           <div className="next" onClick={Next}>Next</div>
           <span className="error">{ error}</span>
         </div>

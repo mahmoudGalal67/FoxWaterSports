@@ -11,7 +11,6 @@ function offers({ image, details, setdetails,setofferModalNumber, setPackageDeta
     else {
       setorderDetails({ packageType: offerPackage, type: offerType })
       setdetails({ process: "dateInfo" })
-      console.log(offerPackage , offerType);
     }
   }
   return (
