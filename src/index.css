@@ -36,6 +36,10 @@ ul{
   object-fit: cover;
 }
 
+h1{
+  text-align: center;
+}
+
 .section-border{
   display: flex;
   justify-content: space-between;

@@ -12,6 +12,7 @@ function PakageDetails({ details, setdetails, orderDetails, setorderDetails }) {
   },[details])
   const settings = {
       infinite: false,
+      // lazyLoad: true,
       speed: 500,
       slidesToShow: 2,
       slidesToScroll: 1,
@@ -19,6 +20,7 @@ function PakageDetails({ details, setdetails, orderDetails, setorderDetails }) {
       autoplay: true,
       autoplaySpeed: 2000,
       pauseOnHover: true,
+      
       dots: false,
       responsive: [
         {

@@ -20,7 +20,10 @@ function Home() {
       <Packeges />
       {/* <Ourteam /> */}
       <SocialRating />
-      <Reviews/>
+      <Reviews />
+      <section id='test'> 
+
+      </section>
       <Footer/>
     </div>
   )

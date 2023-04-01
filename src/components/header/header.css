@@ -12,7 +12,7 @@ header .header-wrapper .owl-carousel .owl-carousel-item video{
 
 header .header-wrapper .owl-carousel .owl-dots{
   text-align: center;
-  bottom: 15px;
+  bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
@@ -21,12 +21,19 @@ header .header-wrapper .owl-carousel .owl-dots{
 header .header-wrapper .owl-carousel .owl-dot{
   display: inline-block;
   margin: 0 5px;
-  width: 20px;
-  height: 20px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   background-color: #ddd !important;
 }
 
 header .header-wrapper .owl-carousel .owl-dot.active {
   background-color: #F07D6B !important;
+}
+
+
+@media (max-width:800px) {
+  header .header-wrapper .owl-carousel .owl-dot{
+    display: none;
+  }
 }

@@ -5,11 +5,7 @@
     <link rel="icon" type="image/x-icon" href="logo.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-
+    <meta name="description" content="Fox water sports" />
     <link
       href="./vendor/owl.carousel/assets/owl.carousel.min.css"
       rel="stylesheet"
@@ -23,6 +19,13 @@
   </head>
   <body>
     <div id="root"></div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZL3FHCY2Q0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ZL3FHCY2Q0');
+    </script>
     <script src="./vendor/jquery/jquery.min.js"></script>
     <script src="./vendor/owl.carousel/owl.carousel.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -39,6 +42,7 @@
           autoplay: true,
           dots: true,
           loop: true,
+          lazyLoad: true,
           responsive: {
             0: {
               items: 1,
@@ -49,6 +53,7 @@
           autoplay: true,
           nav: true,
           loop: true,
+          lazyLoad: true,
           navText: ["->", "<-"],
           responsive: {
             1240: {
@@ -68,6 +73,7 @@
         $(".packageDetails-carousel").owlCarousel({
           autoplay: true,
           loop: true,
+          lazyLoad: true,
           responsive: {
             1240: {
               items: 3,

@@ -9,19 +9,25 @@ function Header() {
           <div className="owl-carousel-item">
             <img
               width="100%" alt="jetski for sale in dubai"
-              src={require("../assets/videos/1.gif")}
+              src={require("../assets/images/01.webp")}
             />
           </div>
           <div className="owl-carousel-item">
             <img
               width="100%" alt="jetski rental in dubai"
-              src={require("../assets/videos/2.gif")}
+              src={require("../assets/images/02.webp")}
             />
           </div>
           <div className="owl-carousel-item">
             <img
               width="100%" alt="best jet ski dubai"
-              src={require("../assets/videos/3.gif")}
+              src={require("../assets/images/03.webp")}
+            />
+          </div>
+          <div className="owl-carousel-item">
+            <img
+              width="100%" alt="best jet ski dubai"
+              src={require("../assets/images/04.webp")}
             />
           </div>
         </div>

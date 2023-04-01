@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useRef } from "react";
 import "./nav.css";
+import {Link } from "react-router-dom"
 
 function Nav() {
   const menu = useRef()
@@ -28,16 +29,16 @@ function Nav() {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/About">About Us</a>
+            <Link to="/About">About Us</Link>
           </li>
           {/* <li>
             <a href="#Packeges">Booking</a>
           </li> */}
           <li>
-            <a href="/Gallary">Gallary</a>
+            <Link to="/Gallary">Gallary</Link>
           </li>
           <li>
-            <a href="/Contact">Contact</a>
+            <Link to="/Contact">Contact</Link>
           </li>
         </ul>
         <img
